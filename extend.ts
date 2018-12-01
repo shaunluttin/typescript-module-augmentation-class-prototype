@@ -7,7 +7,10 @@ declare module '@tensorflow/tfjs-core' {
 }
 
 AdadeltaOptimizer.prototype.newMethod = function (message: string) {
+    const className = this.getClassName();
+
     console.log('===============');
+    console.log(className);
     console.log(message);
     console.log('===============');
 }
