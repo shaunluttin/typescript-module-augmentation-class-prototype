@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm install && tsc && node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,6 @@
     "typescript": "^3.2.1"
   },
   "dependencies": {
-    "@tensorflow/tfjs": "^0.14.0",
+    "@tensorflow/tfjs": "^0.14.0"
   }
 }
