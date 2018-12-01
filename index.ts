@@ -1,6 +1,10 @@
-import * as oidc from 'oidc-client';
+import { AdadeltaOptimizer } from '@tensorflow/tfjs';
+import "./extend";
 
-const client = new oidc.OidcClient({});
+const optimizer = new AdadeltaOptimizer(10, 10);
 
-client.fooBarBaz();
-client.clearStaleState({} as any);
+// the existing method is present
+const className = optimizer.getClassName();
+
+// the augmentation is also present
+optimizer.newMethod(`The className is ${className}.`);

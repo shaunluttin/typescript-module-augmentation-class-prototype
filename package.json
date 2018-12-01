@@ -1,5 +1,5 @@
 {
-  "name": "dir",
+  "name": "demo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,6 @@
     "typescript": "^3.2.1"
   },
   "dependencies": {
-    "oidc-client": "^1.5.4"
+    "@tensorflow/tfjs": "^0.14.0",
   }
 }
